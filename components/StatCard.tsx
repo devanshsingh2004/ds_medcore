@@ -1,7 +1,7 @@
 import clsx from "clsx";
 import Image from "next/image";
 
-interface StatCardProps = {
+type StatCardProps = {
   type: "appointments" | "pending" | "cancelled";
   count: number;
   label: string;
